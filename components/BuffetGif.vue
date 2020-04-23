@@ -4,6 +4,7 @@
       <a name="gif"></a>
       <h2>THE GIF</h2>
       <img :src="link" :alt="alt" />
+      <p>Thanks <a href="https://giphy.com/">Giphy</a></p>
     </div>
   </div>
 </template>

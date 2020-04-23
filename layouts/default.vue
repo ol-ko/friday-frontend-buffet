@@ -127,6 +127,7 @@ dl {
   text-align: center;
   padding-top: 48px;
   margin-top: 48px;
+  color: white;
 
   div {
     background: black;

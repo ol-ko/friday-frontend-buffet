@@ -20,9 +20,7 @@
       duration="2 h 7 min"
       link="https://egghead.io/courses/start-building-accessible-web-applications-today"
       trainer="Marcy Sutton - Head of Learning at Gatsby, ex accessibility engineer at Adobe, axe-core contributor, O'Reilly author"
-      trainerWebsite="https://marcysutton.com/"
       details="This course will introduce you to accessibility through hands-on, technical examples that are way more effective than reading 10-year-old static web content."
-      recommendedBy="Zsuzsa, Homegate's Accessibility Champion"
     ></Course>
 
     <Course
