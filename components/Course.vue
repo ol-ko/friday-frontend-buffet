@@ -1,12 +1,12 @@
 <template>
-  <div>
+  <section>
     <div class="type" title="Course">🎓</div>
     <h2>{{ title }}</h2>
     <a :href="link">{{ link }}</a>
     <p>⏳ {{ duration }}</p>
     <p>😀 {{ trainer }}</p>
     <p>{{ details }}</p>
-  </div>
+  </section>
 </template>
 
 <script>

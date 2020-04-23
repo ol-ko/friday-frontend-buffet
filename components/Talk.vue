@@ -1,12 +1,12 @@
 <template>
-  <div>
+  <section>
     <span class="type" title="Talk">📽</span>
     <h2>{{ title }}</h2>
     <a :href="link">{{ link }}</a>
     <p>⏳ {{ duration }}</p>
     <p>😀 {{ speaker }}</p>
     <p>{{ topic }}</p>
-  </div>
+  </section>
 </template>
 
 <script>

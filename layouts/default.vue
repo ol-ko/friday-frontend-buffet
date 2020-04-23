@@ -27,9 +27,11 @@ body {
 }
 
 main {
-  max-width: 800px;
   position: relative;
-  margin: 0 auto;
+}
+
+section {
+  margin-top: 3em;
 }
 
 .logo {
@@ -69,23 +71,74 @@ a {
 }
 
 nav {
-  display: flex;
-  align-items: center;
-
-  h1 {
-    flex: 0 0 auto;
+  a {
+    font-size: 16px;
   }
 
   p {
-    flex: 1 0 auto;
     text-align: center;
 
     a {
-      font-size: 28px;
       background: none;
     }
   }
 }
+
+@media (max-width: 799px) {
+  main {
+    margin: 0 24px;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  .type {
+    font-size: 28px;
+    position: absolute;
+    left: 0;
+    cursor: default;
+
+    & + h2 {
+      text-indent: 1.4em;
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  nav {
+    display: flex;
+    align-items: center;
+
+    h1 {
+      flex: 0 0 auto;
+    }
+
+    p {
+      flex: 1 0 auto;
+
+      a {
+        font-size: 28px;
+      }
+    }
+  }
+
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .content {
+    margin-left: 48px;
+  }
+  .type {
+    font-size: 28px;
+    position: absolute;
+    left: 0;
+    cursor: default;
+  }
+}
+
 .duration {
   margin-left: 48px;
 }
@@ -97,15 +150,6 @@ h2 {
   & + p {
     margin-top: 0;
   }
-}
-.content {
-  margin-left: 48px;
-}
-.type {
-  font-size: 28px;
-  position: absolute;
-  left: 0;
-  cursor: default;
 }
 
 dl {

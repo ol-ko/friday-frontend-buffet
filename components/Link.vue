@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <section>
     <h2>{{ title }}</h2>
     <a :href="link">{{ link }}</a>
     <p>{{ details }}</p>
-  </div>
+  </section>
 </template>
 
 <script>

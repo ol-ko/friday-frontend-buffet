@@ -1,12 +1,11 @@
 <template>
-  <div>
+  <section>
     <div class="type" title="Article">🗒</div>
     <h2>{{ title }}</h2>
     <a :href="link">{{ link }}</a>
     <p>⏳ {{ duration }}</p>
-    <p v-if="author">😀 {{ author }}</p>
     <p>{{ details }}</p>
-  </div>
+  </section>
 </template>
 
 <script>
