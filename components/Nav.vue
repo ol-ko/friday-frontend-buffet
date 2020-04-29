@@ -1,10 +1,14 @@
 <template>
   <nav>
-    <a href="/" class="logo" title="Friday Frontend BuFFet latest edition">
+    <nuxt-link
+      to="/"
+      class="logo"
+      title="Friday Frontend BuFFet latest edition"
+    >
       <h1>
         <span>Friday<br />Frontend<br />BuFFet</span>
       </h1>
-    </a>
+    </nuxt-link>
     <p>
       <a href="#gif" title="Wow, so shallow..."
         >⬇️ ⬇️ ⬇️ Skip straight to Gif ⬇️ ⬇️ ⬇️</a
