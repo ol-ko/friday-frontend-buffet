@@ -1,22 +1,18 @@
 <template>
   <main>
-    <nav>
-      <a href="/" class="logo" title="A link from here... to here!">
-        <h1>
-          <span>Friday<br />Frontend<br />BuFFet</span>
-        </h1>
-      </a>
-      <p>
-        <a href="#gif" title="Wow, so shallow..."
-          >⬇️ ⬇️ ⬇️ Skip straight to Gif ⬇️ ⬇️ ⬇️</a
-        >
-      </p>
-    </nav>
+    <Nav></Nav>
     <div class="content">
       <nuxt />
     </div>
   </main>
 </template>
+
+<script>
+import Nav from '@/components/Nav.vue'
+export default {
+  components: { Nav }
+}
+</script>
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Ultra&display=swap');
@@ -70,27 +66,9 @@ a {
   }
 }
 
-nav {
-  a {
-    font-size: 16px;
-  }
-
-  p {
-    text-align: center;
-
-    a {
-      background: none;
-    }
-  }
-}
-
 @media (max-width: 799px) {
   main {
     margin: 0 24px;
-  }
-
-  nav {
-    text-align: center;
   }
 
   .type {
@@ -106,23 +84,6 @@ nav {
 }
 
 @media (min-width: 800px) {
-  nav {
-    display: flex;
-    align-items: center;
-
-    h1 {
-      flex: 0 0 auto;
-    }
-
-    p {
-      flex: 1 0 auto;
-
-      a {
-        font-size: 28px;
-      }
-    }
-  }
-
   main {
     max-width: 800px;
     margin: 0 auto;
@@ -188,6 +149,14 @@ dl {
   img {
     max-width: 100%;
   }
+}
+
+.editions {
+  display: flex;
+  justify-content: space-between;
+  border-top: 4px dashed magenta;
+  padding: 48px 0 0 0;
+  margin: 48px 0;
 }
 
 @keyframes pulsate {

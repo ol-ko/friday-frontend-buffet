@@ -1,17 +1,65 @@
 <template>
   <section>
+    <span class="type" :title="types[type].title">{{ types[type].icon }}</span>
     <h2>{{ title }}</h2>
     <a :href="link">{{ link }}</a>
-    <p>{{ details }}</p>
+    <p>
+      <span v-if="author"
+        >😀 <strong>{{ author }}</strong></span
+      ><br />
+      <span v-if="duration">⏳ {{ duration }}</span
+      ><br />
+      <span>{{ levels[level].icon }} {{ levels[level].title }}</span>
+    </p>
+    <slot></slot>
   </section>
 </template>
 
 <script>
 export default {
+  data() {
+    return {
+      levels: {
+        s: {
+          title: 'Light',
+          icon: '🌱'
+        },
+        m: {
+          title: 'Medium',
+          icon: '🌿'
+        },
+        l: {
+          title: 'Nerd',
+          icon: '🌳'
+        }
+      },
+      types: {
+        talk: {
+          title: 'Talk',
+          icon: '📽'
+        },
+        course: {
+          title: 'Course',
+          icon: '🎓'
+        },
+        article: {
+          title: 'Article',
+          icon: '🗒'
+        },
+        game: {
+          title: 'Game',
+          icon: '🎮'
+        }
+      }
+    }
+  },
   props: {
+    type: String,
     title: String,
     link: String,
-    details: String
+    author: String,
+    duration: String,
+    level: String
   }
 }
 </script>
