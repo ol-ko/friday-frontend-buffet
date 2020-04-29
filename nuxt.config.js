@@ -43,6 +43,7 @@ export default {
   },
   buildModules: ['@nuxtjs/gtm'],
   gtm: {
-    id: 'GTM-TGVDVGB'
+    id: 'GTM-TGVDVGB',
+    pageTracking: true
   }
 }
