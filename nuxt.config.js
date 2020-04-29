@@ -40,5 +40,9 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+  buildModules: ['@nuxtjs/gtm'],
+  gtm: {
+    id: 'GTM-TGVDVGB'
   }
 }
