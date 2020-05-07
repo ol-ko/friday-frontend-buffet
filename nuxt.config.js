@@ -44,5 +44,18 @@ export default {
   gtm: {
     id: 'GTM-TGVDVGB',
     pageTracking: true
+  },
+  router: {
+    extendRoutes(routes, resolve) {
+      routes.push({
+        name: 'Home',
+        path: '/',
+        redirect: '/2020-05-08'
+      })
+      routes.push({
+        path: '/:date',
+        component: resolve(__dirname, 'components/Edition.vue')
+      })
+    }
   }
 }

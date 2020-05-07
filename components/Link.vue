@@ -10,7 +10,7 @@
       <span v-if="duration">⏳ {{ duration }}</span>
       <span>{{ levels[level].icon }} {{ levels[level].title }}</span>
     </p>
-    <slot></slot>
+    <div v-html="description"></div>
   </section>
 </template>
 
@@ -58,7 +58,8 @@ export default {
     link: String,
     author: String,
     duration: String,
-    level: String
+    level: String,
+    description: String
   }
 }
 </script>
