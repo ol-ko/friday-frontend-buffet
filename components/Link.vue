@@ -3,12 +3,11 @@
     <span class="type" :title="types[type].title">{{ types[type].icon }}</span>
     <h2>{{ title }}</h2>
     <a :href="link">{{ link }}</a>
-    <p>
+    <p class="link-stats">
       <span v-if="author"
         >😀 <strong>{{ author }}</strong></span
-      ><br />
-      <span v-if="duration">⏳ {{ duration }}</span
-      ><br />
+      >
+      <span v-if="duration">⏳ {{ duration }}</span>
       <span>{{ levels[level].icon }} {{ levels[level].title }}</span>
     </p>
     <slot></slot>

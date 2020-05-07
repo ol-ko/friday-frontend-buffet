@@ -78,7 +78,7 @@
       alt="Nomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnomnom"
     ></BuffetGif>
 
-    <EditionsNav prev="/2020-04-03"></EditionsNav>
+    <EditionsNav prev="/2020-04-03" next="/2020-05-08"></EditionsNav>
   </div>
 </template>
 

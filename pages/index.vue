@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Current from '@/pages/2020-04-30'
+import Current from '@/pages/2020-05-08'
 
 export default {
   components: {

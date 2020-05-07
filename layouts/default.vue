@@ -159,6 +159,10 @@ dl {
   margin: 48px 0;
 }
 
+.link-stats span {
+  display: block;
+}
+
 @keyframes pulsate {
   0% {
     -webkit-transform: scale(1);
