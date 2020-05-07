@@ -23,14 +23,24 @@ export default {
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       { rel: 'preconnect', href: 'https://www.googletagmanager.com' },
       {
-        rel: 'stylesheet',
+        rel: 'preload',
         href:
-          'https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap'
+          'https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap',
+        as: 'style',
+        onload: 'this.onload=null;this.rel="stylesheet"'
       },
       {
-        rel: 'stylesheet',
+        rel: 'preload',
         href:
-          'https://fonts.googleapis.com/css?family=Ultra&text=Friday%20Frontend%20BuFFet&display=swap'
+          'https://fonts.googleapis.com/css?family=Ultra&text=Friday%20Frontend%20BuFFet&display=swap',
+        as: 'style',
+        onload: 'this.onload=null;this.rel="stylesheet"'
+      }
+    ],
+    noscript: [
+      {
+        innerHTML:
+          '<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ultra&text=Friday%20Frontend%20BuFFet&display=swap">'
       }
     ]
   },
