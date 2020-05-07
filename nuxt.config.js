@@ -4,6 +4,9 @@ export default {
    ** Headers of the page
    */
   head: {
+    htmlAttrs: {
+      lang: 'en'
+    },
     title: 'Friday Frontend BuFFet',
     meta: [
       { charset: 'utf-8' },
@@ -11,10 +14,15 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
+        content: 'A weekly assortment of delicious frontend things to devour'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'preconnect', href: 'https://www.google-analytics.com' },
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+      { rel: 'preconnect', href: 'https://www.googletagmanager.com' }
+    ]
   },
   /*
    ** Customize the progress-bar color

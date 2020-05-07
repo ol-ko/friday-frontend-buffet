@@ -15,7 +15,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ultra&text=Friday%20Frontend%20BuFFet&display=swap');
 
 body {
   font-family: 'Roboto Slab', serif;
@@ -161,6 +162,11 @@ dl {
 
 .link-stats span {
   display: block;
+}
+
+.gif > div {
+  min-height: 619px;
+  transition: height 0.2s ease-out;
 }
 
 @keyframes pulsate {
