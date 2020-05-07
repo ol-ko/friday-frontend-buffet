@@ -57,5 +57,8 @@ export default {
         component: resolve(__dirname, 'components/Edition.vue')
       })
     }
+  },
+  generate: {
+    routes: ['/2020-05-08', '/2020-04-30', '/2020-04-03']
   }
 }
