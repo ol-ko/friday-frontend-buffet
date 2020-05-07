@@ -21,7 +21,17 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'preconnect', href: 'https://www.google-analytics.com' },
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-      { rel: 'preconnect', href: 'https://www.googletagmanager.com' }
+      { rel: 'preconnect', href: 'https://www.googletagmanager.com' },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap'
+      },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css?family=Ultra&text=Friday%20Frontend%20BuFFet&display=swap'
+      }
     ]
   },
   /*
