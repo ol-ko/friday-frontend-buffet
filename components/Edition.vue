@@ -41,7 +41,7 @@ export default {
     BuffetGif,
     EditionsNav
   },
-  mounted() {
+  created() {
     this.currentDate = this.$route.params.date
   },
   computed: {
