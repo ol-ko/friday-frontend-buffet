@@ -2,7 +2,7 @@
   <div>
     <Link
       type="article"
-      level="l"
+      level="m"
       title="async/await with loops"
       link="https://zellwk.com/blog/async-await-in-loops/"
       author="Zell Liew, Frontend Engineer and author featured in CSS Tricks, Smashing Magazine"
@@ -10,9 +10,11 @@
     >
       <p>
         Ever got ESLint shout this at you?
+        <br />
         <code>
-          [eslint] Unexpected `await` inside a loop. (no-await-in-loop)
+          >> [eslint] Unexpected `await` inside a loop. (no-await-in-loop)
         </code>
+        <br />
         This article explains what's really going on there - and it depends on
         the way you loop!
       </p>
