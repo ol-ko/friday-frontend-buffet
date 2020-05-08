@@ -157,6 +157,10 @@ dl {
   margin: 48px 0;
 }
 
+.link {
+  overflow-wrap: anywhere;
+}
+
 .link-stats span {
   display: block;
 }
