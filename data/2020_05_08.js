@@ -8,6 +8,7 @@ export default {
       link: 'https://zellwk.com/blog/async-await-in-loops/',
       author:
         'Zell Liew, Frontend Engineer and author featured in CSS Tricks, Smashing Magazine',
+      duration: '10 min',
       description: `
     <p>
         Ever got ESLint shout this at you?
@@ -27,6 +28,7 @@ export default {
       title: 'How To Learn CSS',
       link: 'https://www.smashingmagazine.com/2019/01/how-to-learn-css/',
       author: 'Rachel Andrew, Editor in Chief of Smashing Magazine',
+      duration: '15 min read',
       description: `<p>
         Always wanted to truly understand CSS, but didn't know where to start?
         Best overview post on the internet by Rachel Andrew will clarify all the
