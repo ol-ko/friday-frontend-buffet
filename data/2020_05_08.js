@@ -8,7 +8,7 @@ export default {
       link: 'https://zellwk.com/blog/async-await-in-loops/',
       author:
         'Zell Liew, Frontend Engineer and author featured in CSS Tricks, Smashing Magazine',
-      duration: '10 min',
+      duration: '10 min read',
       description: `
     <p>
         Ever got ESLint shout this at you?

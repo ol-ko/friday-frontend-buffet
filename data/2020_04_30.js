@@ -24,7 +24,6 @@ export default {
       title: 'CSS Diner',
       link: 'http://flukeout.github.io/',
       author: 'Luke Pacholski, Head of UX at ActiveState',
-      duration: '27 min',
       description: `
     <p>
         A GAME for learning CSS selectors. How far can you get without the tips?
