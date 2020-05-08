@@ -158,7 +158,7 @@ dl {
 }
 
 .link {
-  overflow-wrap: anywhere;
+  word-break: break-all;
 }
 
 .link-stats span {
