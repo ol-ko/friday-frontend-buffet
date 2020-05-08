@@ -166,7 +166,6 @@ dl {
 }
 
 .gif > div {
-  min-height: 500px;
   transition: height 0.2s ease-out;
 }
 

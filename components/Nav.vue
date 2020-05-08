@@ -18,6 +18,9 @@
 </template>
 
 <style lang="scss">
+body {
+  margin: 0;
+}
 nav {
   a {
     font-size: 16px;
@@ -39,6 +42,11 @@ nav {
 
   nav {
     text-align: center;
+
+    p {
+      margin-left: -24px;
+      margin-right: -24px;
+    }
   }
 }
 
