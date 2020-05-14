@@ -48,6 +48,14 @@ export default {
         game: {
           title: 'Game',
           icon: '🎮'
+        },
+        podcast: {
+          title: 'Podcast',
+          icon: '🎙️'
+        },
+        book: {
+          title: 'Book',
+          icon: '📖'
         }
       }
     }
