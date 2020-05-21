@@ -147,6 +147,12 @@ dl {
   img {
     max-width: 100%;
   }
+
+  @media (min-width: 800px) {
+    img {
+      min-width: 500px;
+    }
+  }
 }
 
 .editions {
