@@ -50,7 +50,7 @@ export default {
       routes.push({
         name: 'Home',
         path: '/',
-        redirect: '/2020-05-21'
+        redirect: '/2020-05-29'
       })
       routes.push({
         path: '/:date',
@@ -60,7 +60,8 @@ export default {
   },
   generate: {
     routes: [
-      '/2020-05-21',
+      '/2020-05-29',
+      '/2020-05-22',
       '/2020-05-15',
       '/2020-05-08',
       '/2020-04-30',

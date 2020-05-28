@@ -1,5 +1,5 @@
 export default {
-  date: '2020-05-21',
+  date: '2020-05-22',
   links: [
     {
       type: 'course',
