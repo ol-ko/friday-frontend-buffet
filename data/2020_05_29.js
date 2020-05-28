@@ -24,7 +24,7 @@ export default {
       duration: '14 min read',
       description: `
     <p>
-       "Or, 16 cool things you may not have known your stylesheets could do. I'd rather have kept it to a nice round number like 10, but they just kept coming. Sorry." - Jarno
+       "Or, 16 cool things you may not have known your stylesheets could do. I'd rather have kept it to a nice round number like 10, but they just kept coming. Sorry." — Jarno
       </p>
       `
     },
@@ -38,7 +38,7 @@ export default {
       duration: '114 min read',
       description: `
     <p>
-        When Vitaly Friedman starts talking about web performance, it's hard to stop him. Also - you should listen.
+        When Vitaly Friedman starts talking about web performance, it's hard to stop him. Also — you should listen.
       </p>
 `
     },
@@ -66,7 +66,7 @@ export default {
       duration: '21 min read',
       description: `
     <p>
-        Everything you need (yes - need!) to know about web fonts optimization.
+        Everything you need (yes — need!) to know about web fonts optimization.
       </p>
       `
     }
